@@ -1,0 +1,36 @@
+public class Produto {
+    private int codigo;
+    private string descricao;
+    private double preco;
+
+    public Produto(int codigo,string descricao,double preco) {
+        this.codigo = codigo;
+        this.descricao = descricao;
+        this.preco = preco;
+    }
+
+    public int getCodigo() {
+        return codigo;
+    }
+    public string getDescricao() {
+        return descricao;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+
+    public void setDescricao(string descricao) {
+        this.descricao = descricao;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
+
+}
